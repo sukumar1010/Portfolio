@@ -1,0 +1,398 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    nav h1 {
+      font-size: 1.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #2c3e50;
+    }
+
+    .project {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: #3498db;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: #fff;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Hello, I'm [Your Name]</h2>
+    <p>Final year B.Tech student passionate about software development and problem-solving.</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+      <h3>Covid Vaccination App</h3>
+      <p>An app to book and track vaccination appointments.</p>
+      <p><strong>Tech Used:</strong> Android, Firebase</p>
+      <a href="#">GitHub</a> | <a href="#">Live Demo</a>
+    </div>
+    <div class="project">
+      <h3>Expense Tracker</h3>
+      <p>Tracks and shares expenses with downloadable PDF reports.</p>
+      <p><strong>Tech Used:</strong> Kotlin, Jetpack Compose</p>
+      <a href="#">GitHub</a>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java, Kotlin, Python</li>
+      <li>Android Development, Jetpack Compose</li>
+      <li>Django, Firebase, MongoDB</li>
+      <li>Image Processing, Machine Learning</li>
+    </ul>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" download>Download My Resume (PDF)</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Simple scroll animation for sections (optional)
+    const sections = document.querySelectorAll("section");
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = 1;
+          entry.target.style.transform = "translateY(0)";
+        }
+      });
+    }, { threshold: 0.1 });
+
+    sections.forEach(section => {
+      section.style.opacity = 0;
+      section.style.transform = "translateY(50px)";
+      section.style.transition = "all 0.6s ease-out";
+      observer.observe(section);
+    });
+  </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    nav h1 {
+      font-size: 1.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #2c3e50;
+    }
+
+    .project {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: #3498db;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: #fff;
+      margin-top: 2rem;
+    }
+
+    /* Profile image */
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .center-text {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="center-text">
+    <img src="E:\TemporaryFiles\kumarPhoto_edited.jpg" alt="My Photo" class="profile-pic" />
+    <h2>Hello, I'm SUKUMAR RAYAPATI</h2>
+    <p>
+      I am a final-year B.Tech student with a strong passion for software development and problem-solving. I enjoy working with technologies such as Python, Java, Kotlin, Django, and machine learning frameworks.
+    </p>
+    <p>
+      I have hands-on experience in Android development and backend development using Django. Additionally, I actively enhance my skills in data structures and algorithms.
+    </p>
+    <p>
+      I am driven by the challenge of building user-centric, practical applications and exploring how intelligent systems can address real-world problems. I am currently seeking opportunities where I can apply my skills, grow as a software engineer, and contribute to impactful projects.
+    </p>
+    
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+      <h3>1.Photo WebApplication</h3>
+      <p>Engineered a full-stack Photo Web Application by integrating modern front-end and back-end technologies. Designed a responsive and user-friendly interface using HTML and CSS, while implementing robust server-side functionality, database interactions, and data handling using the Django framework</p>
+      <p><strong>Tech Used:</strong> HTML , CSS, Django</p>
+      <a href="https://photos11.pythonanywhere.com/">Live Demo</a>
+    </div>
+
+    <div class="project">
+      <h3>2.Find Blood Donor App</h3>
+      <p>The Find Blood Donor app is designed to save lives by making the process of finding blood donors simple and efficient. With its userfriendly interface and robust search capabilities, the app ensures that those in need can quickly connect with willing donors in their
+        community.</p>
+      <p><strong>Tech Used:</strong> Kotlin, Jetpack Compose, Firebase</p>
+      <a href="https://github.com/sukumar1010/Donate_Blood">GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>Story	Writing	App</h3>
+      <p> Story	Writing	App	is	a	user-friendly	platform	designed	for	aspiring	writers	and	creative	minds	to	craft,	organize,	their	stories	seamlessly.
+        Whether	you're	jotting	down	ideas	or	composing	a	masterpiece,	this	app	provides	a	distraction-free	environment	.	Perfect	for	both
+        beginners	and	seasoned	writers.</p>
+      <p><strong>Tech Used:</strong> Kotlin, Jetpack Compose, Django</p>
+      <a href="https://github.com/sukumar1010/StoryWritingApp">GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3> Expense	Tracker	App</h3>
+      <p> The	Expense	Tracker	is	designed	to	offer	a	seamless	and	intuitive	user experience,	making	it	easy	for	anyone	to	take	control	of	their	finances.
+        Whether	it's	day-to-day	expenses	or	special	occasion	spending,	the	ExpenseTracker	provides	the	tools	needed	for	effective	financial management</p>
+      <p><strong>Tech Used:</strong> Kotlin, Jetpack Compose, Django</p>
+      <a href="https://github.com/sukumar1010/Expense-Tracker">GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>Human vs. Animal Image Classification Using CNN</h3>
+      <p>I developed a Convolutional Neural Network (CNN) to classify images as either human or animal by extracting spatial features. The model
+        was trained on a labeled dataset using convolutional layers for feature extraction and fully connected layers for classification. After
+        training, it achieved high accuracy in distinguishing between the two categories.
+      </p>
+      <p><strong>Tech Used:</strong> Machine Learning </p>
+      
+    </div>
+
+
+
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java, Kotlin, Python</li>
+      <li>Jetpack Compose, Django, Rest Framework</li>
+      <li>Android Development, Machine Learning</li>
+    </ul>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="E:\TemporaryFiles\Sukumar Rayapati_resumeML.pdf" download>Download My Resume (PDF)</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="#">kumareng967@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sukumar11">Linkedin profile</a></p>
+    <p>GitHub: <a href="https://github.com/sukumar1010">Github Profile</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sukumar. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Scroll animation
+    const sections = document.querySelectorAll("section");
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = 1;
+          entry.target.style.transform = "translateY(0)";
+        }
+      });
+    }, { threshold: 0.1 });
+
+    sections.forEach(section => {
+      section.style.opacity = 0;
+      section.style.transform = "translateY(50px)";
+      section.style.transition = "all 0.6s ease-out";
+      observer.observe(section);
+    });
+  </script>
+</body>
+</html>
