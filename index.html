@@ -100,6 +100,19 @@
     .center-text {
       text-align: center;
     }
+
+      .certificate {
+      margin-bottom: 1rem;
+    }
+
+    .certificate img, .certificate iframe {
+      display: none;
+      margin-top: 10px;
+      max-width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
   </style>
 </head>
 <body>
@@ -188,6 +201,31 @@
     </ul>
   </section>
 
+  
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>
+    <div class="certificate">
+      <p><a href="AWS_certificate.pdf" onclick="toggleCert(event, 'cert1')">AWS Certificate by EduSkills</a></p>
+      <img id="cert1" src="AWS_certificate.pdf" alt="Android Certificate" />
+    </div>
+  </li>
+  <li>
+    <div class="certificate">
+      <p><a href="Eduskills_AIML_Internship.pdf" onclick="toggleCert(event, 'cert2')">AIMl Certificate by EduSkills</a></p>
+      <img id="cert2" src="Eduskills_AIML_Internship.pdf" alt="Python Certificate" />
+    </div>
+  </li>
+  <li>
+    <div class="certificate">
+      <p><a href="SalesforceCertificateAdmin.pdf" onclick="toggleCert(event, 'cert3')">Salesforce Admin Virtual Internship</a></p>
+      <iframe id="cert3" src="SalesforceCertificateAdmin.pdf" width="100%" height="500px"></iframe>
+    </div>
+  </li>
+    
+  </ul>
+  </section>
   <section id="resume">
     <h2>Resume</h2>
     <a href="Sukumar Rayapati_resumeML.pdf" download>Download My Resume (PDF)</a>
